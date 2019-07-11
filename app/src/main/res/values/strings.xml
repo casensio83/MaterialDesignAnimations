@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MaterialDesignAnimations</string>
+    <string name="title_history">History</string>
+    <string name="colored_pencils_description">The use of wax-based media in crayons can be traced back to the Greek
+        Golden Age, and was later documented by Roman scholar, Pliny the Elder.[10] Wax-based materials have appealed to
+        artists for centuries due to their resistance to decay, the vividness and brilliance of their colors, and their
+        unique rendering qualities.[10] Although colored pencils had been used for “checking and marking” for decades
+        prior, it was not until the early 20th century that artist-quality colored pencils were produced. Manufacturers
+        that began producing artist-grade colored pencils included Faber-Castell in 1908 (the Polychromos range was
+        initially 60 colors) and Caran d’Ache in 1924, followed by Berol Prismacolor in 1938.[11] Other notable
+        manufacturers include Bruynzeel-Sakura, Cretacolor, Derwent, Koh-i-Noor Hardtmuth, Mitsubishi (uni-ball),
+        Schwan-Stabilo, and Staedtler.
+    </string>
+    <string name="explode_with_xml">xml</string>
+    <string name="explode_with_code">code</string>
+    <string name="explode_transition">Explode Transition</string>
+
 </resources>

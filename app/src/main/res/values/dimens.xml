@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="default_margin_top">24dp</dimen>
+    <dimen name="default_lateral_margin">16dp</dimen>
+</resources>
