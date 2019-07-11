@@ -6,3 +6,5 @@
 <li>Slide Animation</li>
 <li>Shared Elements Animation</li>
 </ul>
+
+These animations can be done by code or through xml files. There is an example of both ways.
