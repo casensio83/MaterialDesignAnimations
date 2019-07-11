@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         buttonExplodeCode.setOnClickListener { goToActivity(AnimationType.EXPLODE_CODE) }
         buttonFadeXml.setOnClickListener { goToActivity(AnimationType.FADE_XML) }
         buttonFadeCode.setOnClickListener { goToActivity(AnimationType.FADE_CODE) }
+        buttonSlideXml.setOnClickListener { goToActivity(AnimationType.SLIDE_XML) }
+        buttonSlideCode.setOnClickListener { goToActivity(AnimationType.SLIDE_CODE) }
     }
 
     private fun goToActivity(animationType: AnimationType) {

@@ -15,5 +15,6 @@
     <string name="explode_with_code">code</string>
     <string name="explode_transition">Explode Transition</string>
     <string name="fade_transition">Fade Transition</string>
+    <string name="slide_transition">Slide Transition</string>
 
 </resources>

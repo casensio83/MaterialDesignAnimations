@@ -1,10 +1,12 @@
 package com.example.materialdesignanimations.presentation
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.transition.Explode
 import android.transition.Fade
+import android.transition.Slide
 import android.transition.TransitionInflater
+import android.view.Gravity
 import com.example.materialdesignanimations.AnimationType
 import com.example.materialdesignanimations.R
 
@@ -39,6 +41,18 @@ class AnimationActivity : AppCompatActivity() {
                 val fadeTransition = Fade()
                 fadeTransition.duration = 1000
                 window.enterTransition = fadeTransition
+            }
+
+            AnimationType.SLIDE_XML -> {
+                val slideTransition = TransitionInflater.from(this).inflateTransition(R.transition.slide)
+                window.enterTransition = slideTransition
+            }
+
+            AnimationType.SLIDE_CODE -> {
+                val slideTransition = Slide()
+                slideTransition.duration = 1000
+                slideTransition.slideEdge = Gravity.RIGHT
+                window.enterTransition = slideTransition
             }
         }
     }
