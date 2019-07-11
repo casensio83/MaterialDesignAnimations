@@ -14,5 +14,6 @@
     <string name="explode_with_xml">xml</string>
     <string name="explode_with_code">code</string>
     <string name="explode_transition">Explode Transition</string>
+    <string name="fade_transition">Fade Transition</string>
 
 </resources>
