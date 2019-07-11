@@ -125,6 +125,33 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline"/>
 
+    <LinearLayout
+            android:id="@+id/sharedElements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:layout_marginStart="@dimen/default_lateral_margin"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSlideCode">
+
+        <TextView
+                android:id="@+id/sharedElementsTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shared_elements"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:transitionName="sharedElementsTitle"/>
+
+        <ImageView
+                android:id="@+id/sharedElementsIv"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/shared_image"
+                android:layout_marginTop="@dimen/default_margin_top"
+                android:transitionName="sharedElementsImage"/>
+
+    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
 
