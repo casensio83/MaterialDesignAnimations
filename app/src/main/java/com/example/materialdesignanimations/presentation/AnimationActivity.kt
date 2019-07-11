@@ -3,6 +3,7 @@ package com.example.materialdesignanimations.presentation
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.transition.Explode
+import android.transition.Fade
 import android.transition.TransitionInflater
 import com.example.materialdesignanimations.AnimationType
 import com.example.materialdesignanimations.R
@@ -27,6 +28,17 @@ class AnimationActivity : AppCompatActivity() {
                 val explodeTransition = Explode()
                 explodeTransition.duration = 1000
                 window.enterTransition = explodeTransition
+            }
+
+            AnimationType.FADE_XML -> {
+                val fadeTransition = TransitionInflater.from(this).inflateTransition(R.transition.fade)
+                window.enterTransition = fadeTransition
+            }
+
+            AnimationType.FADE_CODE -> {
+                val fadeTransition = Fade()
+                fadeTransition.duration = 1000
+                window.enterTransition = fadeTransition
             }
         }
     }

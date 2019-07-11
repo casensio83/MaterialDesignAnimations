@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         buttonExplodeXml.setOnClickListener { goToActivity(AnimationType.EXPLODE_XML) }
         buttonExplodeCode.setOnClickListener { goToActivity(AnimationType.EXPLODE_CODE) }
+        buttonFadeXml.setOnClickListener { goToActivity(AnimationType.FADE_XML) }
+        buttonFadeCode.setOnClickListener { goToActivity(AnimationType.FADE_CODE) }
     }
 
     private fun goToActivity(animationType: AnimationType) {
