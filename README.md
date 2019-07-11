@@ -7,4 +7,4 @@
 <li>Shared Elements Animation</li>
 </ul>
 
-These animations can be done by code or through xml files. There is an example of both ways.
+These animations can be done by code or through xml files. There is an example of both ways. The code is written in Kotlin.
